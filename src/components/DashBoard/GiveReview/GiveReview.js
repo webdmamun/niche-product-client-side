@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import useAuth from "../../Hooks/useAuth";
 import DashBoard from "../DashBoard/DashBoard";
-import "./GiveReview.css";
 
 const GiveReview = () => {
   const { user } = useAuth();
@@ -48,16 +47,16 @@ const GiveReview = () => {
         <input
           type="text"
           onChange={handleTopicName}
-          className="feedback-input"
+          className="m-3 feedback-input"
           name=""
-          placeholder="Topic Name"
+          placeholder="Guiter Name"
           id=""
         />
 
         <input
           type="number"
           onChange={handleRating}
-          className="rating mt-3"
+          className="m-3 mt-3 rating"
           name=""
           placeholder="Rating On 5"
           id=""
@@ -75,7 +74,11 @@ const GiveReview = () => {
           rows="10"
         ></textarea>
         <br />
-        <button onClick={handleReview} id="review-submit" className="btn mt-2">
+        <button
+          onClick={handleReview}
+          id="review-submit"
+          className="mt-2 btn btn-secondary"
+        >
           Submit
         </button>
       </div>

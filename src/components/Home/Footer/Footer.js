@@ -7,16 +7,16 @@ const Footer = () => {
       <div className="footer">
         <div>
           <h4>
-            <u>Company</u>
+            <u>About Us</u>
           </h4>
-          <h6>About Us</h6>
+          <h6>Features</h6>
           <h6>Blog</h6>
           <h6>Contact</h6>
         </div>
 
         <div>
           <h4>
-            <u>Best Seller</u>
+            <u>Useful links</u>
           </h4>
           <h6>Catalog</h6>
           <h6>Our Stores</h6>
