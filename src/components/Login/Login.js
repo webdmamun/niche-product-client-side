@@ -66,7 +66,7 @@ const Login = () => {
             className="btn btn-info mt-2"
             style={{ width: "180px" }}
           >
-            Submit
+            Log in
           </button>
           <br />
           <button
