@@ -1,10 +1,10 @@
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyCn2oCviFwx072Sjuq4BsVTeixUn-lTT78",
+  authDomain: "guitarpoint-a4712.firebaseapp.com",
+  projectId: "guitarpoint-a4712",
+  storageBucket: "guitarpoint-a4712.appspot.com",
+  messagingSenderId: "870149625376",
+  appId: "1:870149625376:web:7208d96af9881843790e45",
 };
 
 export default firebaseConfig;
