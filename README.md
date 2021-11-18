@@ -1,4 +1,4 @@
-# Beany Baby
+# Guitar Point
 
 * Live Site Link:- [https://guitarpoint-a4712.web.app/](https://guitarpoint-a4712.web.app/)
 
@@ -7,7 +7,7 @@
 * After changes run `npm run build`
 
 
-* This is a toy-shop site.
+* This is a Guitar shop site.
 * You can order guitar from this site.
 * And it has a amazing admin panel.
   
